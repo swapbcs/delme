@@ -1,7 +1,10 @@
 {
-  "name": "delme",
+  "name": "@swapbcs/delme",
   "version": "1.0.0",
   "main": "index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -9,7 +12,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/swapbcs/delme.git"
+    "url": "git://git@github.com/swapbcs/delme.git"
   },
   "bugs": {
     "url": "https://github.com/swapbcs/delme/issues"
